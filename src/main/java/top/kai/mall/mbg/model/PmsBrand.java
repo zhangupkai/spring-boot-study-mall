@@ -1,10 +1,8 @@
 package top.kai.mall.mbg.model;
 
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
-@ApiModel
 public class PmsBrand implements Serializable {
     private Long id;
 

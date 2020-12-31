@@ -6,7 +6,7 @@ import top.kai.mall.mbg.model.PmsBrand;
 import top.kai.mall.mbg.model.PmsBrandExample;
 
 public interface PmsBrandMapper {
-    int countByExample(PmsBrandExample example);
+    long countByExample(PmsBrandExample example);
 
     int deleteByExample(PmsBrandExample example);
 
